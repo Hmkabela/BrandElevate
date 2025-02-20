@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brand Elevate</title>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTTXJxphdI+oK6M6cKw6b9+2tKe/8iB2aewBSW7nRZt6B15Z8vs5+nj9+8xUg/bhB4vPu7l5mA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Google Fonts for a techy vibe -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="container">
+      <div class="logo"><img src="images/LOGO.png" alt="" style="height: 6rem;"></div>
+      <div class="menu-toggle" id="mobile-menu"><i class="fas fa-bars"></i></div>
+      <ul id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <header id="home">
+    <h1>Brand Elevate</h1>
+    <p>ELEVATE YOUR BRAND. ELEVATE YOUR <span style="color: black;"><b>COOL</b></span></p>
+  </header>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <!-- Graphic Design -->
+      <div class="service-item">
+        <img class="img-fluid" src="images/design.jpg" alt="100%x280" style="width: 100%;height: 200px;">
+        <h3>Graphic Design</h3>
+        <p>
+          Our creative team offers comprehensive graphic design services, including logo creation, brand identity development, marketing collateral, packaging design, and more. We craft visually engaging assets that capture your brand’s essence, ensuring you stand out in competitive markets and leave a lasting impression on your audience.
+        </p>
+      </div>
+      <!-- Web Development -->
+      <div class="service-item">
+        <img class="img-fluid" src="images/development.jpg" alt="100%x280" style="width: 100%;height: 200px;">
+        <h3>Web Development</h3>
+        <p>
+          We provide end-to-end web development solutions—from responsive website design and seamless UI/UX experiences to custom coding and e-commerce integration. Our modern, SEO-optimized websites not only look stunning but also drive traffic, boost conversion rates, and offer a smooth, interactive user experience.
+        </p>
+      </div>
+      <!-- Brand Marketing -->
+      <div class="service-item">
+        <img class="img-fluid" src="images/marketing.jpg" alt="100%x280" style="width: 100%;height: 200px;">
+        <h3>Brand Marketing</h3>
+        <p>
+          Our strategic brand marketing services encompass social media campaigns, digital advertising, content strategy, and in-depth analytics. By tailoring campaigns to your unique business goals, we amplify your brand message, engage your target audience, and deliver measurable growth that translates into real-world impact.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  
+    <!-- Portfolio Section with Slider -->
+  <section id="portfolio">
+    <h2>Our Work</h2>
+    <section class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h3 class="mb-3">Clients & Projects</h3>
+                </div>
+                <div class="col-6 text-right">
+                    <a class="btn btn-primary mb-3 mr-1" 
+                       href="#carouselExampleIndicators2"
+                       role="button"
+                        data-slide="prev">
+                        <i class="fa fa-arrow-left"></i>
+                    </a>
+                    <a class="btn btn-primary mb-3"
+                       href="#carouselExampleIndicators2"
+                       role="button"
+                       data-slide="next">
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-12">
+                    <div id="carouselExampleIndicators2" 
+                         class="carousel slide"
+                         data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" src="images/Cadbury.jpg" alt="100%x280">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Cadbury Campaign</h4>
+                                                <p class="card-text">Details About The Campaign</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" src="images/doek-on-fleek.jpg" alt="100%x280">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Cadbury Campaign</h4>
+                                                <p class="card-text">Details About The Campaign</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" src="images/essence_of_beauty.jpg" alt="100%x280">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Cadbury Campaign</h4>
+                                                <p class="card-text">Details About The Campaign</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" src="images/mawaza_1.jpg" alt="100%x280">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Cadbury Campaign</h4>
+                                                <p class="card-text">Details About The Campaign</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" src="images/mawaza_2.jpg" alt="100%x280">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Cadbury Campaign</h4>
+                                                <p class="card-text">Details About The Campaign</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" src="images/i_cook_u_eat.jpg" alt="100%x280">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Cadbury Campaign</h4>
+                                                <p class="card-text">Details About The Campaign</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" src="images/steel_wars.jpg" alt="100%x280">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Cadbury Campaign</h4>
+                                                <p class="card-text">Details About The Campaign</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" src="images/hammers_and_screws.jpg" alt="100%x280">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Cadbury Campaign</h4>
+                                                <p class="card-text">Details About The Campaign</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Get In Touch</h2>
+    <div class="contact-form">
+      <form id="contactForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your Name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Your Email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Brand Elevate. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
